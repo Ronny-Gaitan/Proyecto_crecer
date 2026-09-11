@@ -1,0 +1,431 @@
+.main{
+    margin-bottom: 2000px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.header{
+    margin-bottom: 20px;
+}
+#hero {
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+
+    width: min(90%, 2000px);
+    min-height: 400px;
+
+    text-align: left;
+    color: #000;
+
+    border: 3px solid #270499;
+    border-radius: 10px;
+
+    background-image: url('../imagenes/Banner c.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-content-text {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.75);
+}
+#hero p {
+    margin: 10px 0 0 0;
+}
+.titulo-content-text {
+    max-width: 90%;
+    margin: 20px auto; 
+    text-align: center;
+    }
+.titulo-content-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    border-bottom: 5px solid #270499;
+}
+#contenido-aprendizaje {
+    margin: auto;
+
+}
+.grid {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+
+    border: 3px dashed #000000;
+    border-radius: 10px;
+}
+.tarjetas-grid {
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+
+    border: 3px solid #270499;
+    border-radius: 10px;
+
+    width: 390px;
+    min-height: 150px;
+    text-decoration: none;
+}
+#rutas-aprendizaje-link01 p {
+    margin: 0 50px 0 30px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: -1px;
+
+    /* Degradado del texto */
+    background: linear-gradient(
+        90deg,
+        #e4c8ff 0%,
+        #c58cff 45%,
+        #a83df0 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* Sombra */
+    text-shadow: 0 4px 12px rgba(140, 50, 220, 0.25);
+}
+
+
+#rutas-aprendizaje-link02 {
+    background: #a94d30;
+    border: 3px solid #270499;
+    border-radius: 12px;
+}
+#rutas-aprendizaje-link02 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Arial', sans-serif;
+    font-size: clamp(25px, 4vw, 38px);
+    font-weight: 900;
+    line-height: 1;
+
+    color: #fff0d5;
+    text-align: center;
+
+    letter-spacing: 1px;
+    transform: scaleX(0.95);
+
+}
+#rutas-aprendizaje-link03 {
+    color: #ffffff;
+    background: #0a0a23;
+    font-family: "Courier New", monospace, consolas, monospace;
+    font-size: 32px;
+    font-weight: 400;
+
+    letter-spacing: -2px;
+
+}
+#parentesis img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    padding-top: 25px; 
+}
+#rutas-aprendizaje-link04{
+    background: #ffffff;
+}
+#rutas-aprendizaje-link04 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 25px; 
+}
+#rutas-aprendizaje-link05{
+    background: #000000;
+    color: #ffffff;
+    font-family: "consolas", monospace, "Courier New", monospace;
+    font-size: 32px;
+    font-weight: 400;
+    
+} 
+#rutas-aprendizaje-alg0-dev {
+    font-family: "consolas", monospace, "Courier New", monospace;
+    
+    background-image: url('../imagenes/conexion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#rutas-aprendizaje-alg0-dev div {
+    font-size: 30px;   
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.703); 
+}
+#rutas-aprendizaje-warriors-js {
+    font-family: "consolas", monospace, "Courier New", monospace;
+    
+    background-image: url('/imagenes/Warriors-js.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#rutas-aprendizaje-Comprehensive-Rust {
+    font-size: 30px;   
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(3, 9, 46);
+}
+#rutas-aprendizaje-Learn-X-in-Y-minutes {
+    font-size: 30px;   
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(3, 9, 46);
+}
+.letter-deco {
+    /*color: #03ae39;*/
+    background-color: #ffffff;
+    background: linear-gradient(
+        90deg,
+        #08ff32 0%,
+        #04a71f 45%,
+        #028417 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.background-letter-deco {
+    background-color: #ffffff;
+}
+.google-logo {
+padding: 0px 10px 0px 0px;
+  font-family: 'Poppins', sans-serif, Arial;
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: -2px;
+}
+.blue { color: #4285F4; }
+.red { color: #DB4437; }
+.yellow { color: #F4B400; }
+.green { color: #0F9D58; }
+.google-logo-skills-gray {
+     color: #808080; 
+     font-size: 30px;
+}
+
+.site-footer {
+     margin-top: 60px;
+     padding: 32px 8%;
+     color: #ffffff;
+     background: #0c0341;
+}
+
+.footer-content {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 24px;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.footer-brand {
+     display: flex;
+     align-items: center;
+     gap: 12px;
+}
+
+.footer-logo {
+     display: grid;
+     width: 42px;
+     height: 42px;
+     place-items: center;
+     color: #0c0341;
+     background: #ffffff;
+     border-radius: 6px;
+     font-size: 24px;
+     font-weight: 700;
+}
+
+.footer-brand h2 {
+     margin: 0;
+     font-size: 1.2rem;
+}
+
+.footer-brand p {
+     margin: 4px 0 0;
+     color: #d9d5f0;
+}
+
+.footer-nav {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 18px;
+}
+
+.footer-nav a {
+     color: #ffffff;
+     text-decoration: none;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+     color: #c58cff;
+     text-decoration: underline;
+}
+
+.footer-bottom {
+     max-width: 1200px;
+     margin: 24px auto 0;
+     padding-top: 16px;
+     border-top: 1px solid rgba(255, 255, 255, 0.3);
+     text-align: center;
+     color: #d9d5f0;
+     font-size: 0.9rem;
+}
+.ibm-logo {
+    display: flex;
+}
+
+#rutas-aprendizaje-IBM-Skills > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.ibm-SkillsBuild {
+    font-size: 30px;
+    font-weight: bold;
+    color: #373737;
+    padding-right: 10px;
+}
+
+.microsoft-learn {
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+#rutas-aprendizaje-Microsoft-Learn > div {
+    display: flex;
+    align-items: center;
+}
+#rutas-aprendizaje-SQL-Islands{
+    background: linear-gradient(
+        180deg,
+        #a50909 20%,
+        #07aac3 80%
+    );
+}
+
+
+#sql-islands-span {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+
+
+
+.tarjetas-grid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+    
+}
+ /*///////////////////////////////////////////// Reset básico ////////////////////////////////////*/
+    * {box-sizing: border-box; margin: 0; padding: 0}
+    body {font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height: 1.4}
+
+    /* Header */
+    .site-header {
+      background: #0b74de; /* color principal */
+      color: #fff;
+      padding: 0.5rem 1rem;
+      position: relative;
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: inherit;
+    }
+    .brand .logo {
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      color: #0b74de;
+      display: inline-grid;
+      place-items: center;
+      font-weight: 700;
+      border-radius: 6px;
+      flex: 0 0 40px;
+    }
+    .brand .site-title {font-size: 1.05rem; font-weight: 600}
+
+    /* Navegación */
+    .main-nav {
+      display: flex;
+      align-items: center;
+    }
+    .main-nav ul {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+    }
+    .main-nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 0.6rem;
+      border-radius: 4px;
+    }
+    .main-nav a:hover, .main-nav a:focus {
+      background: rgba(255,255,255,0.12);
+      outline: none;
+    }
+
+    /* Botón hamburguesa para móvil */
+    .nav-toggle {
+      display: none;
+      background: transparent;
+      border: 2px solid transparent;
+      color: #fff;
+      padding: 0.4rem;
+      border-radius: 6px;
+    }
+    .nav-toggle:focus {outline: 2px solid rgba(255,255,255,0.3)}
+
+    /* Estilos móviles */
+    @media (max-width: 768px) {
+      .main-nav {position: absolute; left: 0; right: 0; top: 100%; background: #0b74de; display: none;}
+      .main-nav[aria-hidden="false"] {display: block}
+      .main-nav ul {flex-direction: column; padding: 0.5rem 1rem}
+      .nav-toggle {display: inline-block}
+    }
