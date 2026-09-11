@@ -170,9 +170,7 @@
     background-color: rgba(0, 0, 0, 0.703); 
 }
 #rutas-aprendizaje-warriors-js {
-    font-family: "consolas", monospace, "Courier New", monospace;
-    
-    background-image: url('/imagenes/Warriors-js.jpg');
+    background-image: url('../imagenes/Warriors-js.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
