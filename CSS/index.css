@@ -44,7 +44,7 @@
     text-align: center;
     }
 .titulo-content-text h2 {
-    font-size: 2rem;
+
     margin-bottom: 10px;
     border-bottom: 5px solid #270499;
 }
@@ -340,13 +340,20 @@ padding: 0px 10px 0px 0px;
     
 }
 
-
-
-
 .tarjetas-grid:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446); 
+}
+.titulo-content-text{
+   align-items: center;
+}
+.titulo-content-text-movil{
+    display: none;
+}
+.titulo-content-text-grande{
+    display: block;
+    margin-left: auto;
+
 }
  /*///////////////////////////////////////////// Reset básico ////////////////////////////////////*/
     * {box-sizing: border-box; margin: 0; padding: 0}
@@ -426,4 +433,35 @@ padding: 0px 10px 0px 0px;
       .main-nav[aria-hidden="false"] {display: block}
       .main-nav ul {flex-direction: column; padding: 0.5rem 1rem}
       .nav-toggle {display: inline-block}
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 20px;
+      }
+      .tarjetas-grid {
+        width: 80%;
+        min-height: 140px;
+        overflow: hidden;
+        overflow-wrap: anywhere;
+        font-size: 28px;
+      }
+      #rutas-aprendizaje-link01 p{
+        font-size: 30px;
+      }
+      #rutas-aprendizaje-alg0-dev span{
+        font-size: 25px;
+      }
+      #rutas-aprendizaje-Comprehensive-Rust {
+        font-size: 25px;
+      }
+      .titulo-content-text-grande{
+        display: none;
+      }
+      .titulo-content-text-movil{
+        display: block;
+      }
+
+
     }
